@@ -12,5 +12,5 @@ $$
 - 別途与えられた定数の配列 $d[0], d[1], \ldots, d[n-1]$ に対して、次を制約条件とする
 
 $$
-\sum_{i=1}^t x[i] \leq \sum_{i=1}^t d[i], t=0, 1, \ldots, n-1
+\sum_{i=1}^t x[i] \geq \sum_{i=1}^t d[i],\ (t=0, 1, \ldots, n-1)
 $$
